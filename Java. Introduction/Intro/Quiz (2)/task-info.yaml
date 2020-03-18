@@ -1,0 +1,31 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Class loader
+- text: Source code to bytecode compiler
+- text: Garbage collector
+- text: Bytecode verifier
+- text: Java Development Kit
+- text: Bytecode interpreter or/and just-in-time (JIT) compiler
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+status: Solved
+record: -1
+selected_options:
+- 2
+- 0
+- 3
+- 5
+custom_name: Quiz
