@@ -1,13 +1,13 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: Extending methods
-- text: Inheritance
-- text: Run-time polymorphism
-- text: Magic
 - text: Data abstraction
-- text: Encapsulation
+- text: Magic
+- text: Run-time polymorphism
 - text: Compile-time polymorphism
+- text: Extending methods
+- text: Encapsulation
+- text: Inheritance
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
@@ -22,5 +22,7 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
+selected_options:
+- 2

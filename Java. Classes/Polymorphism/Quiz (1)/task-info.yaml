@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: Method overriding is a kind of dynamic polymorphism
-- text: Method overloading is a kind of dynamic polymorphism
 - text: Method overloading is a kind of static polymorphism
+- text: Method overriding is a kind of dynamic polymorphism
 - text: Method overriding is a kind of static polymorphism
+- text: Method overloading is a kind of dynamic polymorphism
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
@@ -19,6 +19,9 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
+selected_options:
+- 1
+- 0
 custom_name: Quiz
