@@ -7,7 +7,8 @@ public class Main {
     List<String> nameList = new ArrayList<>(Arrays.asList("Mr.Green", "Mr.Yellow", "Mr.Red"));
 
 
-    //write your code here
+    String[] strArray = nameList.toArray(new String[2]);
+
 
 
     for (int i = 0; i < strArray.length; i++) {

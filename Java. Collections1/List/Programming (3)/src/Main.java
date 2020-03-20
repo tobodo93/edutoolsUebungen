@@ -10,7 +10,7 @@ public class Main {
     letterList.add(new GreekLetter("Alpha",  1));
 
 
-    //write your code here
+    Object[] objArray = letterList.toArray();
 
 
     for (int i = 0; i < objArray.length; i++) {
