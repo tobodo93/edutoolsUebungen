@@ -2,9 +2,9 @@ type: choice
 is_multiple_choice: true
 options:
 - text: list1.equals(list2)
-- text: list1.equals(list1)
-- text: list1.equals(list3)
 - text: list3.equals(list2)
+- text: list1.equals(list3)
+- text: list1.equals(list1)
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
@@ -19,6 +19,9 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
+selected_options:
+- 0
+- 3
 custom_name: Quiz
